@@ -55,7 +55,24 @@ nav .nav-link:hover {
 .nav-t:hover {
     color: #D2675D;
 }
+
+.dropdown-menu {
+    background-color: #FFA69E;
+    border: none;
+}
+
+.dropdown-item {
+    color: #FFFEF6;
+    font-weight: 700;
+}
+
+.dropdown-item:hover {
+    background-color: #d2675d86;
+    color: #FFFEF6;
+}
 /*--------------fin barra de navegación--------------*/
+
+
 #background-title {
     background-image: url(img/portada-about.jpg);
     background-attachment: scroll;
