@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+body {
+    background-color: #fffef6;
+background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #2D2D2D;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+}
+
+.division {
+    max-width: 260px;
+    margin: 1.5rem auto;
+    color: #b9b9b9;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+/*------------------------------------- HTML INDEX -------------------------------------*/
+/*--------------barra de navegación--------------*/
+nav {
+    background-color: #FFA69E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+nav .nav-link {
+    color: #FFFEF6;
+    transition: all .3s ease;
+}
+
+nav .nav-link:hover {
+    color: #D2675D;
+}
+
+.nav-t {
+    font-weight: 500;
+    color: #FFFEF6;
+    transition: all .3s ease;
+}
+
+.nav-t:hover {
+    color: #D2675D;
+}
+
+.dropdown-menu {
+    background-color: #FFA69E;
+    border: none;
+}
+
+.dropdown-item {
+    color: #FFFEF6;
+    font-weight: 700;
+}
+
+.dropdown-item:hover {
+    background-color: #d2675d86;
+    color: #FFFEF6;
+}
+/*--------------fin barra de navegación--------------*/
+
+
+/*--------------carrusel--------------*/
+#carrusel p, #carrusel h1 {
+    color: #FFFEF6;
+}
+
+.btn-green-c {
+    background-color: #A8B17A;
+    border: 3px solid #A8B17A !important;
+    color: #FFFEF6;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.btn-green-c:hover {
+    background-color: transparent;
+    color: #A8B17A;
+}
+
+.btn-pink-c {
+    background-color: #FFA69E;
+    border: 3px solid #FFA69E !important;
+    color: #FFFEF6;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.btn-pink-c:hover {
+    background-color: transparent;
+    color: #FFA69E;
+}
+
+/*--------------fin carrusel--------------*/
+
+
+/*--------------cards info--------------*/
+#pastillas-info h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #2D2D2D;
+}
+
+.cards-p {
+    background-color: transparent;
+    border: 2.5px solid #a8b17a4b;
+}
+
+.icono-p {
+    color: #A8B17A;
+    width: 50px;
+    height: 50px;
+}
+
+.btn-p {
+    background-color: #A8B17A !important;
+    border: 3px solid #A8B17A !important;
+    color: #FFFEF6 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+}
+
+.btn-p:hover {
+    background-color: transparent !important;
+    color: #A8B17A !important;
+}
+
+.modal-tc {
+    color: #FFA69E !important;
+}
+/*--------------fin cards info--------------*/
+
+
+.modal-content {
+    background-color: #FFFEF6 !important;
+}
+
+.modal-content h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #A8B17A;
+}
+
+
+/*--------------galería--------------*/
+.cards-g {
+    background-color: transparent;
+    border: none;
+}
+
+#galeria h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.btn-bblue {
+    background-color: #73D2DE;
+    border: 3px solid #73D2DE !important;
+    color: #FFFEF6;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.btn-bblue:hover {
+    background-color: transparent !important;
+    color: #73D2DE !important;
+}
+/*--------------fin galería--------------*/
+
+
+/*------------------------------------- HTML COLECCIONES -------------------------------------*/
+#background-title {
+    background-image: url(img/portada-colecciones.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 90%;
+    width: 100%;
+    height: 600px;
+    padding-top: 200px;
+}
+
+#background-title p, #background-title h1 {
+    color: #FFFEF6;
+}
+
+#miyazaki h2, #hisaishi h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    color: #A8B17A;
+}
+
+#terunobu h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    color: #FFA69E;
+}
+
+#momose h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    color: #73D2DE;
+}
+
+.btn-pink {
+    background-color: #FFA69E;
+    border: 3px solid #FFA69E !important;
+    color: #FFFEF6;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.btn-pink:hover {
+    background-color: transparent !important;
+    color: #FFA69E !important;
+}
+
+#hisaishi a {
+    color: #A8B17A;
+    font-weight: 700;
+    transition: all .3s ease;
+}
+
+#hisaishi a:hover {
+    color: #7e8659;
+    text-decoration: underline !important;
+}
+
+
+/*------------------------------------- HTML CONTACTO -------------------------------------*/
+#background-contacto {
+    background-image: url(img/portada-contacto.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 80%;
+    width: 100%;
+    height: 600px;
+    padding-top: 200px;
+}
+
+#background-contacto p, #background-contacto h1 {
+    color: #FFFEF6;
+}
+
+/*--------------formulario--------------*/
+#formulario h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    color: #A8B17A;
+}
+
+.division-contacto {
+    max-width: 6%;
+    color: #b9b9b9;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+label {
+    font-family: 'Montserrat', sans-serif;
+}
+
+select, textarea, .formulario-t {
+    background-color: #FFFEF6 !important;
+    padding: 10px 10px !important;
+}
+
+.formulario-t {
+    font-family: 'Montserrat', sans-serif;
+    border: solid 2px #a8b17a6b;
+}
+/*--------------fin formulario--------------*/
+
+
+/*--------------mapa--------------*/
+.mapa {
+    width: 100%;
+}
+
+#map h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    color: #A8B17A;
+}
+
+#map h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #A8B17A;
+}
+
+.gli {
+    color: #A8B17A;
+    font-weight: 700;
+}
+
+.icono-m {
+    color: #A8B17A;
+    width: 30px;
+    height: 30px;
+}
+/*--------------fin mapa--------------*/
+
+
+/*------------------------------------- HTML MERCHANDISING -------------------------------------*/
+#background-tienda {
+    background-image: url(img/portada-tienda.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 70%;
+    width: 100%;
+    height: 600px;
+    padding-top: 200px;
+}
+
+#background-tienda h1, #background-tienda p {
+    color: #FFFEF6;
+}
+
+#merch h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    color: #73D2DE;
+}
+
+#merch-video h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    color: #FFA69E;
+}
+
+
+
+
+/*--------------footer--------------*/
+#footer {
+    background-color: #A8B17A;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#footer p {
+    color: #FFFEF6;
+}
+
+.texto-f {
+    font-weight: 400;
+    color: #fffef6b2 !important;
+}
